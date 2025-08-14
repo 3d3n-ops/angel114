@@ -5,6 +5,8 @@
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
     "dev": "cd frontend && npm run dev",
-    "start": "cd frontend && npm start"
+    "start": "cd frontend && npm start",
+    "vercel-build": "cd frontend && npm install && npm run build",
+    "install-deps": "cd frontend && npm install"
   }
 }
