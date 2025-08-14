@@ -1,8 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
+import { Button } from "../components/ui/button"
+import { ThemeToggle } from "../components/theme-toggle"
 
 const rotatingWords = ["lazy", "busy", "overwhelmed", "ambitious", "procrastinating", "cracked"]
 
