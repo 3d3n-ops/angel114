@@ -4,10 +4,13 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false, // Changed to false to catch TypeScript errors
   },
   images: {
     unoptimized: true,
+  },
+  experimental: {
+    typedRoutes: true,
   },
 }
 
